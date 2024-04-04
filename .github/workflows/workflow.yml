@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: bun install
       - name: Build
-        run: npm run build_prod
+        run: bun run build_prod
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
